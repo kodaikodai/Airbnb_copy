@@ -1,0 +1,96 @@
+* {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+  color: #484848;
+  box-sizing: border-box;
+}
+
+header {
+  height: 82px;
+  width: 100%;
+}
+
+header .container {
+  height: 100%;
+  color: black;
+  padding-right: 36px;
+  display: flex;
+  border-bottom: 2px solid #ebebeb;
+}
+
+header .menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 82px;
+}
+
+.menu .left {
+  padding-left: 24px;
+}
+
+.left ul {
+  list-style: none;
+}
+
+.left li .active {
+  height: 81px;
+  display: inline-block;
+  border-bottom: 2px solid #008489;
+}
+
+.active span {
+  color: #008489;
+}
+
+.left li {
+  display: inline-block;
+  padding-right: 32px;
+  font-size: 15px;
+}
+
+.icon {
+  height: 100%;
+  width: 64px;
+  line-height: 95px;
+}
+
+.fa-airbnb {
+  padding-left: 24px;
+  font-size: 35px;
+  color: rgb(0, 132, 137);
+}
+
+.right {
+  display: flex;
+  padding: 0 40px 0 24px;
+  font-size: 14px;
+}
+
+.income {
+  display: flex;
+}
+.fa-question-circle {
+  margin-left: 3px;
+  cursor: pointer;
+}
+.price {
+  padding: 2px 16px 2px 8px;
+  font-size: 24px;
+  color: #484848;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.start-btn button {
+  background: #db3742;
+  padding: 7px 16px;
+  border-width: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.start-btn button span {
+  color: #ffffff;
+  font-size: 15px;
+}

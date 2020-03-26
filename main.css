@@ -1,5 +1,6 @@
 .main{
   width: 100%;
+  padding-top: 50px;
 }
 
 .banner{
@@ -223,3 +224,13 @@ font-weight: 600;
   line-height: 1.75em ;
   color: #484848 ;
 }
+
+.check a{
+  color: #008489;
+  text-decoration: none;
+}
+
+.check a:hover{
+  text-decoration:underline;
+}
+

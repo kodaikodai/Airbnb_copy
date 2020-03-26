@@ -1,0 +1,39 @@
+/* タブレット 671px~960px */
+@media screen and (max-width:960px){
+  header {
+    height: 50px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  header .menu {
+    line-height: 50px;
+}
+
+.banner{
+  height: 312px;
+}
+
+
+
+.left li .active {
+  height: 49px;
+}
+
+/* スマホ  ~670px*/
+@media screen and (max-width:670px) {
+  .left li {
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+
+}
+
+

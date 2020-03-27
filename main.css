@@ -28,11 +28,6 @@
   font-size: 40px;
   line-height: 1;
   font-weight: 600;
-  color:#333333;
-}
-
-.lower{
-  color: rgb(255, 255, 255);
 }
 
 .lower h1{
@@ -41,6 +36,7 @@
 
 .container .lower{
   padding-top: 24px;
+  color: #484848;
 }
 
 .lower input{
@@ -51,6 +47,7 @@
   border-style: solid;
   border-color: #EBEBEB;
   border-radius: 4px;
+  color: #484848;
 }
 
 .select{
@@ -69,6 +66,7 @@
 
 .type select{
   height: 46px;
+  color: #484848;
 }
 
 .people select{
@@ -85,6 +83,7 @@
   border-color: #EBEBEB;
   width: 100%;
   background-color: #fff;
+  color: #484848;
 }
 
 .select div{
@@ -142,6 +141,59 @@
   font-size: 16px;
   font-weight: 700;
 }
+
+.form1{
+  display: none;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 24px;
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.form1>h1{
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+.form-lower{
+  display: none;
+  padding: 0 77px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .box1{
   margin:64px 204px 0;

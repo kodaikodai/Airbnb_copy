@@ -3,28 +3,57 @@
   header {
     height: 50px;
   }
-
   .right {
     display: none;
   }
-
   .icon {
     display: none;
   }
-
   header .menu {
     line-height: 50px;
 }
 
-.banner{
-  height: 312px;
+.footerbar{
+  display: block ;
 }
 
+
+
+
+
+
+
+
+
+/* ここまでヘッダー */
+
+.banner{
+  height: 312px;
+  position: relative;
+}
+
+.banner::before{
+  position: absolute;
+  font-family: "Font Awesome 5 Brands";
+  content: "\f834";
+  top: 32px;/*上からの距離*/
+  left: 24px;/*左からの距離*/
+  color: white;
+  font-size: 2em;
+}
 
 
 .left li .active {
   height: 49px;
 }
+
+
+
+
+
+
+
+
 
 /* スマホ  ~670px*/
 @media screen and (max-width:670px) {

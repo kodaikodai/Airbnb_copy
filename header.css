@@ -12,7 +12,7 @@ header {
   background-color: #ffffff;
 }
 
-header .container {
+header>.container {
   height: 100%;
   color: black;
   padding-right: 36px;
@@ -95,4 +95,35 @@ header .menu {
 .start-btn button span {
   color: #ffffff;
   font-size: 15px;
+}
+
+
+
+
+.footerbar{
+  display: none;
+  padding-right: 24px;
+  height: 64px;
+  background-color: white;
+  border-top: 2px solid #ebebeb;
+  width: 100%;
+  position: fixed; /* 下部に固定 */
+  bottom: 0px; /* 下部に固定 */
+}
+
+.footerbar>.container{
+  line-height: 64px;
+}
+
+.footerbar>.container>.right-a>.income{
+  margin-left: auto;
+}
+
+.footerbar>.container>.right-a span{
+  font-size: 14px;
+}
+
+.right-a {
+  display: flex;
+  font-size: 14px;
 }

@@ -49,7 +49,47 @@
   .form-lower {
     display: block;
   }
+
+  .box1 {
+    display: block;
+    padding: 64px 24px 0;
+    margin: 64px;
+    margin: 0 auto;
+  }
+
+  .left1,
+  .right1 {
+    width: 100%;
+    margin-bottom: 48px;
+    padding: 0 64px;
+  }
+
+  .box2{
+    margin: 96px 0 0;
+  }
+.box2 h2{
+  font-size: 40px;
 }
+
+.box3{
+  display: block;
+  margin: 50px 106px 0;
+
+}
+
+.box3>div{
+  width: 100%;
+  margin-bottom: 48px;
+}
+}
+
+
+
+
+
+
+
+
 
 /* スマホ  ~670px*/
 @media screen and (max-width: 670px) {
@@ -89,5 +129,23 @@
   .select .people {
     padding: 0 0 8px;
     width: 100%;
+  }
+
+  .left1,
+  .right1 {
+    padding: 0;
+  }
+
+  .box3{
+    display: block;
+    margin: 50px 24px 0;
+  
+  }
+
+
+  .box3>div{
+    width: 100%;
+    margin-bottom: 48px;
+    padding: 0;
   }
 }

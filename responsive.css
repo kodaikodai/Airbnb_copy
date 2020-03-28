@@ -1,5 +1,9 @@
 /* タブレット 671px~960px */
 @media screen and (max-width: 960px) {
+
+  .main{
+    padding: 50px 0 64px;
+  }
   header {
     height: 50px;
   }
@@ -65,7 +69,7 @@
   }
 
   .box2{
-    margin: 96px 0 0;
+    margin: 0;
   }
 .box2 h2{
   font-size: 40px;
@@ -83,7 +87,7 @@
 }
 
 .box4{
-  /* width: 95%; */
+  width: 95%;
   margin: 0 auto;
   padding: 96px 24px 64px;
 }
@@ -107,8 +111,31 @@
   padding:0 0 24px 0;
 }
 
+.left44{
+  width: 100% !important;
 }
 
+.right44{
+  width: 100%;
+}
+.box44>div{
+  display: block;
+}
+
+.box44{
+  padding: 64px 24px 64px;
+}
+
+.left44>p{
+  font-size: 16px;
+  line-height: 1.75em ;
+}
+
+.box7{
+  max-width: 696px;
+}
+
+}
 
 
 
@@ -208,4 +235,9 @@
   padding-top: 15px;
 }
 
+
 }
+
+
+
+

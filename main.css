@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 82px;
 }
 
 .banner {
@@ -220,7 +220,13 @@
 }
 
 .box3 {
-  margin: 64px 204px 0;
+  max-width: 1080px;
+  padding-right: 24px ;
+  padding-left: 24px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  width: auto ;
+  margin-top: 64px;
   display: flex;
 }
 
@@ -254,6 +260,7 @@
 .check a {
   color: #008489;
   text-decoration: none;
+  font-size: 16px;
 }
 
 .check a:hover {
@@ -264,8 +271,13 @@
 
 
 .box4{
-  margin: 96px 180px 64px;
-  padding: 0 24px;
+  max-width: 1080px;
+  padding-right: 24px ;
+  padding-left: 24px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  width: auto ;
+  margin-top: 64px;
 }
 
 .box4>div{
@@ -327,4 +339,67 @@
   height: 100%;
   background-image: url(img4.jpg);
   background-size: cover;
+}
+
+.box6{
+  margin-top: 64px;
+  background-color: red;
+  max-width: 1080px;
+  padding-right: 24px ;
+  padding-left: 24px ;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: auto !important;
+}
+
+.fa-check{
+  font-weight: 900;
+  margin-right: 16px;
+  color: #008489;
+}
+
+.text{
+  color: #767676;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375em;
+}
+
+.tx{
+  margin-bottom: 16px;
+}
+
+.box4 .left44{
+  padding: 0;
+}
+
+
+
+
+.box7{
+  position: relative;
+  max-width: 1080px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  width: auto ;
+  
+}
+
+.box7::before {
+  content:"";
+  display: block;
+  padding-top: 63%;
+}
+
+.img7{
+  background-image: url(bb358a46-fa25-4895-b5fd-048a386bdcac.jpg);
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-right: 24px ;
+  margin-left: 24px ;
 }

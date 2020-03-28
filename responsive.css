@@ -69,7 +69,7 @@
   }
 
   .box2{
-    margin: 0;
+    margin: 120px 0 0 0;
   }
 .box2 h2{
   font-size: 40px;
@@ -89,7 +89,7 @@
 .box4{
   width: 95%;
   margin: 0 auto;
-  padding: 96px 24px 64px;
+  padding: 74px 24px 0;
 }
 
 .left4>i{
@@ -133,6 +133,48 @@
 
 .box7{
   max-width: 696px;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
+.box10{
+  margin-top: 120px;
+  padding: 0px 24px 0;
+}
+
+
+.box10 .left10 {
+  padding: 48px 0 0 0;
+}
+
+
+.box12 h2{
+  font-size: 40px ;
+  line-height: 40px ;
+}
+
+.box12{
+  display: flex;
+  margin: 50px 0 0;
+}
+
+.box12>div{
+  width: 33.333%;
+}
+.box12 p{
+  font-size: 14px;
+  font-weight: 400 ;
+}
+
+.box13{
+  max-width: 696px ;
+  margin: 50px 0 0;
+  margin-left: auto ;
+  margin-right: auto ;
+  width: auto ;
+}
+.box13>div{
+  margin-bottom: 0 !important;
 }
 
 }
@@ -189,10 +231,13 @@
     padding: 0;
   }
 
+  .box2 {
+    margin: 96px 0 0 0;
+}
+
   .box3{
     display: block;
-    margin: 50px 24px 0;
-  
+    margin: 50px 0px 0;
   }
 
 
@@ -203,7 +248,7 @@
   }
 
   .box4{
-    padding: 48px 24px 64px;
+    padding: 48px 24px 0px;
   }
 
 
@@ -235,6 +280,21 @@
   padding-top: 15px;
 }
 
+.box10{
+  margin-top: 96px;
+}
+
+.box10 .left10 {
+  padding: 0;
+}
+
+.box10 {
+  padding: 0 24px 0;
+}
+
+.box7{
+  margin-top: 64px;
+}
 
 }
 

@@ -200,6 +200,27 @@
   display: none;
 }
 
+
+.box15{
+  margin-top: 72px;
+}
+
+.container15{
+  max-width: 696px ;
+}
+
+.box15 h2{
+  font-size: 40px ;
+  line-height: 40px ;
+  max-width: 330px ;
+}
+
+
+.backgroud-img{
+  height: 375px ;
+}
+
+
 }
 
 
@@ -346,6 +367,9 @@
   margin: 10px 16px;
 }
 
+.box15{
+  margin-top: 64px;
+}
 
 }
 

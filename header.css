@@ -12,7 +12,7 @@ header {
   background-color: #ffffff;
 }
 
-header>.container {
+header > .container {
   height: 100%;
   color: black;
   padding-right: 36px;
@@ -97,7 +97,7 @@ header .menu {
   font-size: 15px;
 }
 
-.footerbar{
+.footerbar {
   display: none;
   padding-right: 24px;
   height: 64px;
@@ -108,15 +108,15 @@ header .menu {
   bottom: 0px; /* 下部に固定 */
 }
 
-.footerbar>.container{
+.footerbar > .container {
   line-height: 64px;
 }
 
-.footerbar>.container>.right-a>.income{
+.footerbar > .container > .right-a > .income {
   margin-left: auto;
 }
 
-.footerbar>.container>.right-a span{
+.footerbar > .container > .right-a span {
   font-size: 14px;
 }
 

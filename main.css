@@ -477,3 +477,67 @@
   margin-right: 0;
 }
 
+.box14{
+  max-width: 1080px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  width: auto ;
+  padding-right: 24px ;
+  padding-left: 24px ;
+  margin-top: 96px;
+}
+
+.text14{
+  margin-bottom: 16px;
+  padding-left: 8px ;
+  padding-right: 8px ;
+}
+
+.text14 h2{
+  font-size: 24px ;
+    font-weight: 700 ;
+    line-height: 1.25em ;
+    color: #484848 ;
+}
+
+.image14{
+  display: flex;
+}
+
+.image14>div{
+  width: 33.3333%;
+  height: 100%;
+  margin-left: 8px ;
+  margin-right: 8px ;
+  margin-bottom: 16px ;
+}
+
+.image14>div img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px ;
+}
+
+.image14>div a{
+  text-decoration: none;
+}
+
+.a{
+  margin-bottom: 2px;
+  color: #484848 ;
+  font-weight: 800;
+}
+
+.b{
+  margin-bottom: 8px;
+}
+.b p{
+  font-size: 14px ;
+  line-height: 1.375em ;
+  color: #484848 ;
+}
+
+.c{
+  color: #008489;
+  font-size: 14px;
+}

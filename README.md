@@ -4,8 +4,8 @@
 
 
 <p align="center">
-  <a href=""><img src="https://user-images.githubusercontent.com/57389471/77995441-c0662700-7366-11ea-87aa-19152a8ffb22.jpg" height="120px;" /></a>
-  <a href=""><img src="https://user-images.githubusercontent.com/57389471/77995418-b8a68280-7366-11ea-9c68-15faa7874990.jpg" height="125px;" /></a>
+  <img src="https://user-images.githubusercontent.com/57389471/77995441-c0662700-7366-11ea-87aa-19152a8ffb22.jpg" height="120px;" />
+  <img src="https://user-images.githubusercontent.com/57389471/77995418-b8a68280-7366-11ea-9c68-15faa7874990.jpg" height="125px;" />
 </p>
 
 ## このアプリについて

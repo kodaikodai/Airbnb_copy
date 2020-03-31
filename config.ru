@@ -1,3 +1,0 @@
-# run Rack::File.new 'public'
-use Rack::Static, urls: [''], root: 'public', index: 'index.html'
-run lambda {|env|}
